@@ -1,1 +1,9 @@
+<!--header-->
 <app-nav-bar></app-nav-bar>
+
+<!--body-->
+ <ul>
+  @for (item of product; track $index) {
+    <li>{{item.name}}</li>
+  }
+ </ul>
