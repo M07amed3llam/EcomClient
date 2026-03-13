@@ -45,11 +45,14 @@
       </div>
 
       <div class="row g-4">
+
         <!-- child components will be rendered here -->
-         <!-- @for (item of products; track $index) {} -->
-         <ng-container>
-            <app-shop-item></app-shop-item>
-         </ng-container>
+        @for (item of products; track $index) {
+        <ng-container>
+          <app-shop-item class="product-item col-lg-4 col-md-6" [product]="item"></app-shop-item>
+        </ng-container>
+        }
+
       </div>
 
     </section>

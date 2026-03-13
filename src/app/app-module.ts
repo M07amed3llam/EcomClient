@@ -21,7 +21,7 @@ import { ShopModule } from './shop/shop-module';
   ],
   providers: [
     provideBrowserGlobalErrorListeners(),
-    provideClientHydration(withEventReplay()),
+    // provideClientHydration(withEventReplay()),
     provideHttpClient()
   ],
   bootstrap: [App]
