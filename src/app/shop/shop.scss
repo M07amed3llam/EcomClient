@@ -1,0 +1,103 @@
+/* ===== Page Title ===== */
+
+.main-title {
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+/* ===== Sidebar ===== */
+
+.sidebaer {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+  .section-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #444;
+  }
+}
+
+/* ===== Select ===== */
+
+.custom-select-wrapper {
+
+  .form-select {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+
+    &:focus {
+      border-color: #2a5298;
+      box-shadow: none;
+    }
+  }
+}
+
+/* ===== Category List ===== */
+
+.custom-list-group {
+  border: none;
+
+  .custom-list-item {
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: 0.25s;
+    color: #333;
+
+    &:hover {
+      background: #f4f6f8;
+      transform: translateX(4px);
+    }
+
+    &.active {
+      background: #2a5298;
+      color: white;
+      font-weight: 500;
+    }
+  }
+}
+
+/* ===== Top Controls ===== */
+
+.paging-container {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* ===== Search Bar ===== */
+
+.search-container {
+
+  .search-bar {
+
+    .form-control {
+      border-radius: 20px 0 0 20px;
+      border: 1px solid #ddd;
+      padding: 8px 15px;
+
+      &:focus {
+        border-color: #2a5298;
+        box-shadow: none;
+      }
+    }
+
+    .btn {
+      padding: 8px 15px;
+      font-size: 14px;
+      border-radius: 0;
+    }
+
+    .btn-dark {
+      border-radius: 0 20px 20px 0;
+    }
+  }
+}
+
